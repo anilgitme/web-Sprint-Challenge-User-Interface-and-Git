@@ -272,7 +272,7 @@ h1 {
 
 .first-section {
     padding: 20px;
-    margin: 30px;
+    /* margin: 30px; */
 }
 
 .flex-items {
@@ -286,7 +286,7 @@ h1 {
     flex-grow: 1.5;
     height: 380px;
     width: 380px;
-    margin: 80px;
+    margin: 85px;
     border: 1px solid black;
 }
 
