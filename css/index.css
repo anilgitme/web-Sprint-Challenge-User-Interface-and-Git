@@ -221,7 +221,7 @@ p {
 }
 
 footer {
-    width: 100%;
+    /* width: 100%; */
     background: black;
 }
 
@@ -232,6 +232,7 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    text-align: center;
 }
 
 footer nav a {
