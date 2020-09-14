@@ -239,5 +239,73 @@ footer nav a {
     text-decoration: none;
 }
 
+footer {
+    background-color: black;
+}
 
-/* end of reset */
+header nav {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1 {
+    padding-left: 200px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.image-container img {
+    padding-left: 230px;
+    padding-bottom: 30px;
+}
+
+.first-section {
+    padding: 20px;
+    margin: 30px;
+}
+
+.flex-items {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-items div {
+    flex-grow: 1.5;
+    height: 380px;
+    width: 380px;
+    margin: 80px;
+    border: 1px solid black;
+}
+
+.flex-items img {
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    padding: 15px;
+    border-radius: 10px;
+    border-color: black;
+    margin: 10px;
+}
+
+.last-section {
+    padding: 40px;
+    margin: 50px;
+}
+
+h3 {
+    padding-top: 20px;
+}
