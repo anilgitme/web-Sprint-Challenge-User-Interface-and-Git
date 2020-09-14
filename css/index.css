@@ -238,6 +238,7 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
 }
 
 footer {
@@ -271,7 +272,8 @@ h1 {
 }
 
 .first-section {
-    padding: 20px;
+    padding-left: 250px;
+    padding-right: 250px;
     /* margin: 30px; */
 }
 
@@ -286,8 +288,9 @@ h1 {
     flex-grow: 1.5;
     height: 380px;
     width: 380px;
-    margin: 85px;
-    border: 1px solid black;
+    margin: 80px;
+    /* border: 1px solid black; */
+    padding: 15px;
 }
 
 .flex-items img {
@@ -309,4 +312,26 @@ button {
 
 h3 {
     padding-top: 20px;
+    font-weight: bold;
+}
+
+.border-line {
+    padding: 10px;
+    border-bottom: dotted;
+}
+
+.about-footer {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 20px 2%; */
+    font-size: 14px;
+    text-align: center;
+    /* padding-left: 60px; */
+    margin: 0 auto;
+}
+
+.about-footer a {
+    font-weight: bold;
 }
