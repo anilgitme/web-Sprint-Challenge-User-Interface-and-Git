@@ -272,7 +272,7 @@ h1 {
 }
 
 .first-section {
-    padding-left: 250px;
+    padding-left: 230px;
     padding-right: 250px;
     /* margin: 30px; */
 }
@@ -281,15 +281,14 @@ h1 {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .flex-items div {
-    flex-grow: 1.5;
+    flex-grow: 1;
     height: 380px;
     width: 380px;
     margin: 80px;
-    /* border: 1px solid black; */
     padding: 15px;
 }
 
@@ -321,7 +320,8 @@ h3 {
 }
 
 .about-footer {
-    width: 60%;
+    padding: 8px;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -334,4 +334,13 @@ h3 {
 
 .about-footer a {
     font-weight: bold;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+.main-section {
+    padding-left: 100px;
+    padding-right: 50px;
 }
